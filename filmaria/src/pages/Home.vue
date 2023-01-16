@@ -1,10 +1,10 @@
 <template>
   <div id="home">
     <div id="lista-filmes">
-      <article class="file" v-for="filme in filmes" :key="filme.id">
+      <article class="filme" v-for="filme in filmes" :key="filme.id">
         <strong>{{filme.nome}}</strong>
         <img :src="filme.foto" :alt="filme.nome">
-        <router-link :to="'/filme/${filme.id}'">Acessar</router-link>
+        <router-link :to="`/filme/${filme.id}`">Acessar</router-link>
       </article>
     </div>
   </div>
@@ -27,7 +27,7 @@ export default {
 
     const response = await api.get('?api=filmes');
     this.filmes = response.data;
-    console.log(response.data)
+    console.log(response.data);
     
 
   }
