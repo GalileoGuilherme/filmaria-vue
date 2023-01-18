@@ -46,10 +46,20 @@ export default {
         justify-content: center;
         width: 800px;
         padding: 0 15%;
+        
+    }
+    strong{
+      background-color: brown;
+      width: 100%;
+      padding: 20px 0;
+      align-items: center;
+      text-align: center;
     }
 
     .lista-filmes{
         margin:15px;
+        
+        
     }
 
     .lista-filmes article{
@@ -61,6 +71,7 @@ export default {
         margin: 15px;
         padding: 15px; 
         border-radius: 5px;
+        
     }
 
     .lista-filmes strong{
@@ -85,7 +96,5 @@ export default {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px; 
     }
-    .titulo{
-      color: black;
-    }
+   
 </style>
