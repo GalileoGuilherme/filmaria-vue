@@ -54,6 +54,7 @@ export default {
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: #FFF;
   }
 
   ul{

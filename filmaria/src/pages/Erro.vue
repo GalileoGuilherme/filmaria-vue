@@ -26,10 +26,15 @@
       justify-content: center;
       display: flex;
       width: 20%;
-      
+      align-content: center;
+      align-items: center;
       text-align: center;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
+      margin: 0 40%;
+      /* border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px; */
+      border-radius: 5px;
+      
+
 
     }
   

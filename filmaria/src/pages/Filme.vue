@@ -12,7 +12,7 @@
          Sinopse
        </h3>
        <p>{{filme.sinopse}}</p>
-       
+
        <div class="botoes">
          <router-link tag="button" to="/">Ver mais filmes</router-link>
          <button @click="salvarFilme">Salvar</button>
@@ -81,6 +81,7 @@ export default {
         flex-direction: column;
         max-width: 900px;
         padding: 0 15%;
+        color: #FFF;
     }
 
     h2{
