@@ -6,7 +6,7 @@
     </div>
     <div class="lista-filmes" v-else>
       <article class="filme" v-for="filme in filmes" :key="filme.id">
-        <strong>{{filme.nome}}</strong>
+        <strong class="titulo">{{filme.nome}}</strong>
         <img :src="filme.foto" :alt="filme.nome">
         <router-link :to="`/filme/${filme.id}`">Acessar</router-link>
       </article>
@@ -84,5 +84,8 @@ export default {
         text-align: center;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px; 
+    }
+    .titulo{
+      color: black;
     }
 </style>
